@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 function Header() {
 
-  const [ShowBurger,ChangeBurger] = React.useState(true);
+  const [ShowBurger,ChangeBurger] = React.useState(false);
   return (
     <Nav>
       <Logos>Fibre</Logos>

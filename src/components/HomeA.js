@@ -53,8 +53,8 @@ const Container = styled.div`
 `;
 
 const Wrap = styled.div`
-  margin-left: 100px;
-  margin-right: 100px;
+width: 80%;
+margin: auto;
 
   h3 {
     color: #4d13d1;
@@ -64,12 +64,16 @@ const Wrap = styled.div`
   h1 {
     color: black;
   }
+
+  @media (max-width: 425px) {
+      margin: auto;
+    }
 `;
 
 const Grids = styled.div`
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 60px;
+  width: 80%;
+  margin: 60px auto 0 auto;
+  ${'' /* margin-top: 60px; */}
 
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -83,14 +87,17 @@ const Grids = styled.div`
 `;
 
 const GridItem = styled.div`
-  height: 200px;
   display: flex;
   flex-direction: column;
 
   img {
     width: 50px;
     height: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 980px) {
+   margin-bottom: 20px;
   }
 `;
 
