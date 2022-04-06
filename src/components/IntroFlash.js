@@ -88,7 +88,7 @@ const Part1 = styled.div`
     margin-left: auto;
     padding: 10px;
     h1 {
-      font-size: 30px;
+      font-size: 20px;
       color: black;
       font-size: bold;
     }

@@ -60,7 +60,7 @@ const Wrapper = styled.div`
    display: flex;
    flex-direction: row;
 
-   @media (max-width: 800px) {
+   @media (max-width: 980px) {
     flex-direction: column;
   }
 `

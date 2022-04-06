@@ -63,6 +63,12 @@ margin: auto;
 
   h1 {
     color: black;
+   
+    @media (max-width: 425px) {
+      margin: auto;
+      font-size: 10px;
+    }
+
   }
 
   @media (max-width: 425px) {
