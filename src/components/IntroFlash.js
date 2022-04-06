@@ -48,6 +48,9 @@ export default IntroFlash;
 const Container = styled.div`
   width: 100vw;
   background-color: #fbf8f3;
+  padding: 30px;
+  margin-bottom: 20px;
+  height: inherit;
 `;
 
 const Part1 = styled.div`
@@ -108,12 +111,12 @@ const Part2 = styled.div`
 
     @media (max-width: 980px) {
       margin: auto;
-      
+      widht: 300px;
     }
 
     @media (max-width: 425px) {
       margin: auto;
-     
+      width: 300px;
     }
   }
 
